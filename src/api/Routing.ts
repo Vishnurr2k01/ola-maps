@@ -1,5 +1,4 @@
   import { OlaMapsAPI } from "../olaMapsAPI";
-  import { API_VERSION } from "../utils/Config";
   import { GetURL } from "../utils/GetUrlPath";
   import { TDirectionsOption, TGeoCord } from "../utils/types";
 

@@ -6,7 +6,6 @@ import {
 } from "../utils/types";
 import { API_VERSION } from "../utils/Config";
 import { GetURL } from "../utils/GetUrlPath";
-import axios from "axios";
 
 export class Places {
   private api: OlaMapsAPI;

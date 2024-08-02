@@ -21,7 +21,7 @@ export class GetURL {
   }
 
   public get_geocode_url(){
-    return this.reversegeocode_url
+    return this.geocode_url
   }
   public get_autocomplete_url(){
     return this.autocomplete_url

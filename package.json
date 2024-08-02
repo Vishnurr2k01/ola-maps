@@ -1,8 +1,26 @@
 {
   "name": "ola-maps-node",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "The OLA Maps SDK which uses clientId and clientSecret to generate Bearer token, provides a simple and intuitive interface for interacting with Ola Maps APIs, including Places and Routing functionalities. This SDK allows developers to easily integrate geocoding, reverse geocoding, autocomplete, and directions services into their applications.",
+  "keywords": [
+    "ola",
+    "ola maps",
+    "ola maps sdk",
+    "ola maps node",
+    "ola maps npm",
+    "maps",
+    "ola maps api",
+    "ola maps integration",
+    "maps integration",
+    "maps sdk",
+    "free maps",
+    "ola maps usage",
+    "integrate ola maps",
+    "npm ola maps",
+    "npm maps",
+    "npm ola"
+  ],
+  "main": "dist/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Vishnurr2k01/ola-maps.git"
@@ -14,7 +32,7 @@
   },
   "homepage": "https://github.com/Vishnurr2k01/ola-maps#readme",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc -d --outDir dist ./src/index.ts",
     "start": "node dist/index.js",
     "dev": "nodemon --exec \"ts-node\" ./test.ts"
   },

@@ -1,7 +1,6 @@
 import axios, {AxiosInstance} from 'axios'
 import { BASE_URL } from './utils/Config'
 import { Auth } from './api/auth'
-import { config } from 'process';
 
 
 export class OlaMapsAPI{
